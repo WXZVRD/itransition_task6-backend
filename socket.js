@@ -4,7 +4,7 @@ const io = new Server(null, {
     pingInterval: 10000,
     pingTimeout: 5000,
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://itransition-task6-front.vercel.app',
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     },
 });
