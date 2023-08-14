@@ -10,7 +10,7 @@ initSocketServer(server);
 
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://itransition-task6-front.vercel.app',
 }));
 const port = process.env.PORT || 3301
 
